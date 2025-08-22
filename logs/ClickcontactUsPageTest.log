@@ -1,0 +1,7 @@
+2025-08-21 15:33:53 INFO  BaseClass - Launching Chrome browser
+2025-08-21 15:33:59 INFO  BaseClass - Navigated to AutomationExercise
+2025-08-21 15:33:59 INFO  HomePageTest - Page objects initialized
+2025-08-21 15:33:59 INFO  HomePageTest - ===== Starting contactUsPageTest =====
+2025-08-21 15:34:01 INFO  HomePageTest - Clicked on Contact Us menu button
+2025-08-21 15:34:01 INFO  HomePageTest - ===== contactUsPageTest Completed =====
+2025-08-21 15:34:02 INFO  BaseClass - Browser closed

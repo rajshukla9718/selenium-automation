@@ -1,0 +1,12 @@
+2025-08-21 15:33:44 INFO  BaseClass - Launching Chrome browser
+2025-08-21 15:33:47 INFO  BaseClass - Navigated to AutomationExercise
+2025-08-21 15:33:47 INFO  ContactUsPageTest - Page objects initialized
+2025-08-21 15:33:47 INFO  ContactUsPageTest - ===== Starting Contact Us Page Test =====
+2025-08-21 15:33:49 INFO  ContactUsPageTest - Clicked on Contact Us menu button
+2025-08-21 15:33:49 INFO  ContactUsPageTest - Verified Contact Us page header
+2025-08-21 15:33:50 INFO  ContactUsPageTest - Clicked Submit button
+2025-08-21 15:33:50 INFO  ContactUsPageTest - Accepted success alert
+2025-08-21 15:33:50 INFO  ContactUsPageTest - Verified success message
+2025-08-21 15:33:52 INFO  ContactUsPageTest - Verified Home page title
+2025-08-21 15:33:52 INFO  ContactUsPageTest - ===== Contact Us Page Test Completed Successfully =====
+2025-08-21 15:33:52 INFO  BaseClass - Browser closed

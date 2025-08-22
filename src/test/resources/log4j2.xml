@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %c{1} - %msg%n"/>
+        </Console>
+
+        <!-- Routing Appender for per-test logging -->
+        <Routing name="Routing">
+            <Routes pattern="${ctx:testName}">
+                <!-- Route for testName -->
+                <Route>
+                    <File name="File-${ctx:testName}" fileName="logs/${ctx:testName}.log">
+                        <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %c{1} - %msg%n"/>
+                    </File>
+                </Route>
+
+                <!-- Default route if testName not set -->
+                <Route key="default">
+                    <File name="File-Default" fileName="logs/default.log">
+                        <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %c{1} - %msg%n"/>
+                    </File>
+                </Route>
+            </Routes>
+        </Routing>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Routing"/>
+        </Root>
+    </Loggers>
+</Configuration>
