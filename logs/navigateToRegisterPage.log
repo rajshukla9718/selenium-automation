@@ -1,9 +1,0 @@
-2025-08-21 15:34:03 INFO  BaseClass - Launching Chrome browser
-2025-08-21 15:34:06 INFO  BaseClass - Navigated to AutomationExercise
-2025-08-21 15:34:06 INFO  HomePageTest - Page objects initialized
-2025-08-21 15:34:06 INFO  HomePageTest - ===== Starting navigateToRegisterPage Test =====
-2025-08-21 15:34:06 INFO  HomePageTest - Clicked on Sign Up / Login button
-2025-08-21 15:34:09 INFO  HomePageTest - Verified Sign Up page header
-2025-08-21 15:34:10 INFO  HomePageTest - Clicked Sign Up button
-2025-08-21 15:34:10 INFO  HomePageTest - ===== navigateToRegisterPage Test Completed =====
-2025-08-21 15:34:11 INFO  BaseClass - Browser closed

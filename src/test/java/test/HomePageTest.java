@@ -6,6 +6,8 @@ import com.selenium.pageobjects.HomePage;
 import com.selenium.pageobjects.RegisterPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -58,5 +60,14 @@ public class HomePageTest extends BaseClass {
         log.info("Clicked on Contact Us menu button");
 
         log.info("===== contactUsPageTest Completed =====");
+    }
+
+    @Test
+    public void verifyPageTitle(){
+        log.info("=========Started Verify Page Title===========");
+        String pageTitle = hp.getPageTitle();
+        log.info("========Verifying Page Title=========");
+        Assert.assertEquals(pageTitle, "Automation Exercise");
+
     }
 }

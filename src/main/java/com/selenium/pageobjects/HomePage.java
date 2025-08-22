@@ -50,4 +50,8 @@ public class HomePage {
     public WebElement getHomeBtn() {
         return homeBtn;
     }
+
+    public String getPageTitle(){
+        return driver.getTitle();
+    }
 }
